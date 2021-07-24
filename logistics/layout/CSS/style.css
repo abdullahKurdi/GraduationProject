@@ -1,0 +1,563 @@
+/* ................ start body style ...................... */
+body{
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+}
+/* ................ end body style ...................... */
+
+
+/* ................ start log in form ...................... */
+
+.login {
+	width: 300px;
+	margin: 100px auto;
+}
+
+.login h3 {
+    color:#021727;
+    font-weight: bold;
+}
+
+.login input {
+	margin-bottom: 10px;
+}
+
+.login .form-control {
+	background-color: #EAEAEA;
+}
+
+
+.login .btn{
+    background-color:#021727;
+    width:300px;
+}
+
+
+/* ................ end login form ...................... */
+
+/* ................ start navbar ...................... */
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(241 243 237 / 55%);
+    
+}
+.bg-dark {
+    background-color: #021727!important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(239 231 238);
+    font-size:large;
+}
+.navbar-dark .navbar-brand {
+    color: #f4f4f4;
+    font-size: large;
+}
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0
+}
+.navbar-toggler{
+    font-size: 0.85rem;
+}
+
+.dropdown-menu-dark {
+    background-color: #0d6efd;
+}
+
+.dropdown-menu{
+    top: 94%;
+    left: -60px;
+    border-radius: 0;
+
+}    
+/* ................ end navbar ...................... */
+
+
+/* ................ start dashboard page ...................... */
+.dash .stat{
+    color : #ffffff;
+    font-size:15px;
+    padding:20px;
+    border-radius: 20px 10px;
+    margin-top :10px;
+    box-shadow:4px 4px #021727;
+    font-weight:bold;
+    height: 152px;
+    position:relative;
+    overflow:hidden;
+}
+.dash .stat i{
+    position: absolute;
+    left: 19px;
+    top: 15px;
+    font-size:70px;
+    color:#fcfcfc;
+}
+.dash .stat .info{
+    right: 10px;
+    position: absolute;
+    top: 29px;
+}
+.dash .stat a{
+    color:#ffffff;
+    text-decoration:none;
+}
+ 
+.dash .st-member{
+    background-color:#40407a;
+}
+.dash .st-pending{
+    background-color:#b33939;
+}
+.dash .st-item{
+    background-color:#009432;
+}
+.dash .st-comment{
+    background-color:#f7b731;
+}
+
+/*.iconfa {
+    padding-right:10px;
+    font-size:70px;
+    color:#fcfcfc;
+}
+.iconfa2 {
+    padding-right:8px;
+    font-size:70px;
+    color:#530802;
+}
+.iconfa3 {
+    padding-right:8px;
+    font-size:88px;
+    color:rgb(172, 218, 8);
+}
+.iconfa4 {
+    padding-right:8px;
+    font-size:88px;
+    color:rgb(7, 82, 14);
+}
+*/
+.dash .stat span{
+    display :block;
+    font-size:60px;
+
+}
+.category .catpan {
+    margin-bottom: 20px;
+}
+.latest {
+    margin-top:40px;
+    font-size:20px
+}
+.latest .toggle-info{
+    color:whitesmoke;
+}
+.latest .toggle-info:hover{
+    color:rgb(148, 7, 7);
+    cursor:pointer;
+}
+.latest .panel-heading{
+    border:1px solid;
+    padding:7px;
+    border-radius:5px 5px 0 0;
+    
+    background-color: #021727;
+    color:#f4f4f4
+}
+.latest .panel-body{
+    border:1px solid;
+    padding:7px;
+    border-radius:0px 0px 5px 5px;
+    margin-bottom:40px;
+}
+.latestbtn{
+    padding:3px;
+    margin-left: 5px;
+}
+.latest .panel-body ul li {
+    margin:3px;
+    padding:8px;
+}
+
+.latest .panel-body ul li:nth-child(even){
+    background-color:#D3D3D3;
+    
+} 
+.latest .comment-box{
+    margin: 5px 0 10px;
+}
+.latest .comment-box .member-n,
+.latest .comment-box .member-c
+{
+    display:inline-block
+
+}
+
+.latest .comment-box .member-n{
+    width:100px;
+    text-align:center;
+    margin-right:45px;
+    float:left;
+    position:relative;
+    top:2px
+}
+.latest .comment-box .member-c{
+    width: calc(100% - 145px);
+    background-color:#D3D3D3;
+    padding:8px;
+    border-radius:5px;
+    position:relative;
+}
+.latest .comment-box .member-c:before{
+    content:"";
+    display:block;
+    position:absolute;
+    left:-28px;
+    top:4px;
+    width:0;
+    height:0;
+    border-style:solid;
+    border-color:transparent #D3D3D3 transparent transparent;
+    border-width:15px;
+}
+
+
+/* ................ end dashboard page ...................... */
+
+
+/* ................ start members page ...................... */
+.form-horizontal{
+    border: 1px solid ;
+    padding:10px;
+    border-radius:20px 20px;
+    box-shadow: 7px 7px #021727;
+    background-color:white;
+    padding-top:25px
+}
+.manage-members img{
+    height: 50px;
+    width: 50px;
+}
+.col-md-4{
+    position: relative;
+}
+.col-md-6{
+    position: relative;
+}
+.asterick {
+    position: absolute;
+    font-size: 30px;
+    top: 1px;
+    right: 20px;
+    color: darkred;
+}
+h1.text-center{
+    color: #021727;
+    font-weight: bold;
+    font-size:50px;
+    margin:10px;
+    margin-bottom:40px;
+    padding-bottom: 10px;
+
+}
+.form-group .form-label{
+    font-weight: bold;
+    font-size :23px;
+    color: #021727;
+    margin-bottom:0px;
+    
+}
+.form-group .form-check-input{
+    margin-bottom:25px;
+    font-size :20px;
+    color: #021727;
+    
+}
+.form-group .form-check-label{
+    font-weight: bold;
+    color: #021727;
+}
+
+.form-group .form-control{
+    margin-bottom:25px;
+}
+
+.form-group .btn{
+    width:100%;
+}
+
+.show-pass{
+    position: absolute;
+    font-size: 20px;
+    top: 9px;
+    right: 34px;
+    color:#021727;
+}
+
+
+.tbtn{
+    width: 60px;
+    margin-bottom:3px;
+    font-size: 15px;
+    padding:1px;
+}
+.tbtnw{
+    margin-left: 4px;
+    width: 72px;
+    margin-bottom:3px;
+    font-size: 14px;
+    padding:1px;
+}
+td.contr{
+    width:18%
+}
+.nice-message{
+    padding:10px;
+    margin: 30px 0;
+    background-color:#fff;
+    border-left: 5px solid #080;
+}
+.nice-message2{
+    padding:10px;
+    margin: 5px 0px;
+    background-color:#fff;
+    border-left: 5px solid #080;
+}
+/* ................ end members page ...................... */
+
+/* ................ start categories page ...................... */
+.category .panel-heading{
+    border:1px solid;
+    padding:7px;
+    border-radius:5px 5px 0 0;
+    background-color: #021727;
+    color:#f4f4f4;
+}
+.category .panel-heading .head{
+    width:50%
+}
+.category .panel-heading .ordering{
+    right:0px
+}
+.category .panel-heading .ordering .view{
+    margin-left:15px;
+    display:inline;
+}
+.category .panel-heading .ordering a{
+    text-decoration: none;
+    color:#fff;
+    font-size: 15px;
+}
+.category .panel-heading .ordering span{
+    color:#fff;
+    font-size: 15px;
+    cursor:pointer;
+}
+.category .panel-heading .ordering .active{
+    text-decoration: none;
+    color:red;
+    font-size: 15px;
+}
+
+.category .panel-body h3{
+    cursor:pointer;
+}
+
+.category .panel-body{
+    /* max-height: 340px; */
+    overflow: auto;
+    border:1px solid;
+    border-radius:0px 0px 5px 5px;
+    
+}
+.category .cat:last-of-type ~ hr{
+    display:none;
+}
+.category .panel-body .cat{
+    position:relative;
+    padding:12px 10px;
+    overflow:hidden;
+}
+.category .cat:hover .btnt{
+    -webkit-transition: all .6s ease-in-out ;
+    -moz-transition: all .6s ease-in-out ;
+    transition:all .6s ease-in-out ;
+    right:8px;
+}
+.category .panel-body .cat:hover{
+    background-color: #e0ded9;
+
+}
+.category .cat .btnt{
+    position:absolute;
+    top:10px;
+    right:-200px;
+}
+.category .cat .btnt a {
+    margin-left: 6px;
+    padding: 0px 6px;
+}
+hr {
+    margin: 0px 6px;
+}
+.category .cat .visibile {
+    background-color: #40407a;
+    color: #f7f1e3;
+    padding: 3px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+}
+.category .cat .Hidden {
+    background-color: #cd6133;
+    color: #f7f1e3;
+    padding: 3px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+}
+.category .cat .Comment {
+    background-color: #218c74;
+    padding: 3px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    color: #f7f1e3;
+}
+.category .cat .Comment2 {
+    background-color: #f5a12b;
+    padding: 3px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    color: #f7f1e3;
+}
+.category .cat .Adst {
+    background-color: #44bd32;
+    padding: 3px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    color: #f7f1e3;
+}
+.category .cat .Adst2 {
+    background-color: #b33939;
+    padding: 3px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+    border-radius: 8px;
+    color: #f7f1e3;
+}
+/* ................ end categories page ...................... */
+/* ................ Start logistics page ...................... */
+th.c1.table-dark {
+    width: 127px;
+}
+th.c2.table-secondary{
+    width: 127px;
+}
+th.c3.table-light{
+    width: 127px;
+}
+th.c3.table-danger{
+    width: 127px;
+}
+th.c2.table-info{
+    width: 127px;
+}
+a.c_control.btn.btn-primary {
+    padding: 3px;
+    font-size: 13px;
+}
+a.c_control.btn.btn-warning {
+    padding: 3px;
+    font-size: 13px;
+}
+.UsersLog{
+    margin-top:50px;
+    margin-bottom:50px;
+    border: 1px solid;
+    border-radius:5px;
+    box-shadow: 10px 10px 11px -6px rgb(1, 4, 41);
+}
+.UsersLog img{
+    max-height: 350px;
+    max-width: 312px;
+    min-width: 228px;
+    min-height: 246px;
+}
+.UsersLog .card{
+    padding: 16px;
+}
+.UsersLog .card .ar{
+    text-align: center;
+}
+.UsersLog .card .card-body{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.ItemShow .ItemPic{
+    margin-top: 20px;
+    height: 440px;
+    max-width: 650px;
+    border: 1px solid;
+    border-radius:5px;
+    box-shadow: 10px 10px 11px -6px rgb(1, 4, 41);
+    padding: 3px;
+    text-align: -webkit-center;
+    background-color: #fff;
+    color: black;
+
+}
+.ItemShow .ItemPic a.carousel-control-next {
+    color: black;
+}
+.ItemShow .ItemPic a.carousel-control-prev {
+    color: black;
+}
+.ItemShow .ItemPic img{
+    height: 431px;
+    max-width: 618px;
+}
+.ItemShow{
+    text-align: -webkit-center;
+}
+.ItemShow .info{
+    margin-top:30px;
+    text-align:left
+}
+.ItemShow .info .item{
+    padding:0px;
+    border: 1px solid;
+    border-radius:5px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 11px -6px rgb(1, 4, 41);
+}
+.ItemShow .info .item2{
+    height: fit-content;
+    padding:10px;
+    border: 1px solid;
+    border-radius:5px;
+    box-shadow: 10px 10px 11px -6px rgb(1, 4, 41);
+}
+.ItemShow .control{
+    text-align:left;
+    margin-top: 30px;
+    border: 1px solid;
+    padding: 10px;
+}
+.ItemShow .control .Form .win{
+    background-color: rgb(1, 4, 41);
+    color: white;
+}
+.ItemShow .control .Form .buy{
+    background-color: rgb(50, 50, 63);
+    color: white;
+}
+.ItemShow input#formControlRange{
+    width:90%;
+
+}

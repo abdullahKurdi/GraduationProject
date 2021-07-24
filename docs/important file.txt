@@ -1,0 +1,23 @@
+$noNavbar => to check if you need navbar in your page or not 
+
+$pageTitle => this variabel echo the title in all pages by function name getTile 
+
+redirectAlert() => this function can redirect when done or else statment in case it should redirect to home (index) or previuspage
+
+checkIteam() =>Check Items Function v1.0
+	      Function to Check Item In Database [ Function Accept Parameters ]
+	      $select = The Item To Select [ Example: user, item, category ]
+	      $from = The Table To Select From [ Example: users, items, categories ]
+	      $value = The Value Of Select [ Example: Abdullah, Box, Electronics ]
+
+countItem() =>Count Number Of Items Function v1.0
+	     Function To Count Number Of Items Rows
+	     $item = The Item To Count
+	     $table = The Table To Choose From
+
+getlatest() =>Get Latest Records Function v1.0
+	      Function To Get Latest Items From Database [ Users, Items, Comments ]
+	      $select = Field To Select
+	      $table = The Table To Choose From
+	      $order = The Desc Ordering
+	      $limit = Number Of Records To Get

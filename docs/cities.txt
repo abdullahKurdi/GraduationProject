@@ -1,0 +1,13 @@
+'Cairo','Alexandria','Giza','Shubra El-Kheima','Port Said','Suez','El-Mahalla El-Kubra','Luxor','Mansoura','Tanta'
+
+'Riyadh','Jeddah','Mecca','Medina','Al-Ahsa','Ta\'if','Dammam','Buraidah','Khobar','Tabuk'
+
+'Tripoli','Misurata','Sirte', 'Al-Batnan', 'Benghazi', 'Al-Jabal Al-Akhdar', 'Al-Jabal Al-Gharbi', 'Al-Jufra', 'Al-Zawiya', 'Al-Jafara', 'Derna', 'Sebha','Ghat','Al-Kufra','Al-Marj','Al-Marqab','Al-Mazraq','Al-Wahat','Al-Naqat Al-Khams','Wadi Al-Ajal', 'Wadi Al-Shati'
+
+
+'Casablanca', 'Rabat', 'Fez', 'Marrakesh', 'Tangier', 'Sefrou','Benjrir', 'Tan-Tan', 'Ouezzane', 'Guercif', 'Ouarzazate', 'Al Hoceima', 'Jerada', 'Chefchaouen', 'Fnideq', 'Souk El Sabt', 'Salé Al Jadida', 'Tahla', 'Bhalil', 'Tiznit', 'Berrechid', 'Wadi Zem', 'Fakih Bensalah', 'Taourirt', 'Berkane', 'Sidi Slimane', 'Rashidiya', 'Sidi Kacem', 'Khenifra','Tiflet', 'Essaouira', 'Taroudant', 'Citadel of Saraghna', 'Ouled Teima', 'Youssoufia', 'Temara', 'Khouribga', 'Tetouan', 'Kenitra', 'Wjeddah', 'Meknes', 'Beni Mellal', 'Safi', 'Laayoune', 'Mohammedia', 'Khemisset', 'Larache', 'the great palace', 'authorities', 'Nador','Taza','Al-Jadidah'
+
+
+'Adrar', 'Chlef', 'Laghouat', 'Oum El Bouaghi', 'Batna', 'Bejaia', 'Biskra', 'Bechar', 'Blida', 'Bouira', 'Tamanrasset', 'Tlemcen', 'Tiaret', 'Tizi Ouzou', 'Algeria', 'Djelfa', 'Jijel', 'Setif', 'Saida', 'Skikda', 'Sidi Bel Abbes', 'Annaba', 'Guelma', 'Constantine', 'Medea', 'Mostaganem', 'Messila', 'Camp', 'Ouargla', 'Oran', 'El Bayadh', 'Elise', 'Bordj Bou Arreridj', 'Boumerdes', 'El Tarif', 'Tindouf','Tissemsilt', 'Al-Wadi', 'Khenchela', 'Souk Ahras', 'Tipaza', 'Mila', 'Ain Defla', 'ostrich', 'Ain Temouchent', 'Ghardaia', 'Relizane'
+
+
